@@ -3,7 +3,7 @@
 # This script modified by Noob Hackers
 #@@2222222
 # Hearlty thanks for linuxchoice
-# If you use any part from this code, giving m
+# If you use any part from this code, giving 
 clear
 termux-setup-storage
 pkg install php -y
