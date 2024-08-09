@@ -1,7 +1,3 @@
-<p align="center">
-
-<a href="https://github.com/noob-hackers"><img title="Licence" src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
-</p>
 
 ## ABOUT TOOL :
 
@@ -37,7 +33,7 @@ Grabcam is a bash based script which is officially made for termux from this too
 * `pkg install python2 -y`
 * `pkg install git -y`
 * `pip install lolcat`
-* `git clone https://github.com/noob-hackers/grabcam`
+* `git clone https://github.com/nomankarim8/Ncam.git`
 * `cd $HOME`
 * `ls`
 * `cd grabcam`
