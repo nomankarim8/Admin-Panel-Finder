@@ -1,12 +1,6 @@
 # GrabCam v1.1
 
 
-
-
-
-
-
-
 **Coded by: [The Linux Choice](https://github.com/thelinuxchoice/saycheese)**  
 **Modified by: Noob Hackers**
 
