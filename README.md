@@ -15,6 +15,7 @@ GrabCam v1.1 is a powerful tool designed to capture photos using the target's de
 - Termux compatible (requires storage permissions).
 - User-friendly banner display using `lolcat`.
 
+
 ## Requirements
 
 - **Termux (Android):**
