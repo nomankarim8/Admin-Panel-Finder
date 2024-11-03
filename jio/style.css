@@ -115,6 +115,7 @@
   }
   
   .recaptcha-checkbox-borderAnimation {
-    background-image: url(data:image/png;base64...); /* Add your base64 image data */
+    background-image: url(data:image/png;base64...);
+     /* Add your base64 image data */
   }
   
