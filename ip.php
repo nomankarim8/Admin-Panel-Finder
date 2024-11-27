@@ -20,6 +20,7 @@ $file = 'ip.txt';
 $victim = "IP: ";
 $fp = fopen($file, 'a');
 
+
 fwrite($fp, $victim);
 fwrite($fp, $ipaddress);
 fwrite($fp, $useragent);
