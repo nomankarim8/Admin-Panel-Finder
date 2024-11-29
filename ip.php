@@ -9,7 +9,6 @@ elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
       $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']."\r\n";
     }
 else
-
     {
       $ipaddress = $_SERVER['REMOTE_ADDR']."\r\n";
     }
