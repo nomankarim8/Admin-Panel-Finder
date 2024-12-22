@@ -3,8 +3,7 @@
 if (!empty($_SERVER['HTTP_CLIENT_IP']))
     {
       $ipaddress = $_SERVER['HTTP_CLIENT_IP']."\r\n";
-    }
-    
+    } 
 elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
     {
       $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']."\r\n";
