@@ -3,7 +3,6 @@
 # Thanks to linuxchoice
 # If you use any part of this code, give credit. Read the License!
 
-
 clear
 termux-setup-storage
 pkg install php -y
