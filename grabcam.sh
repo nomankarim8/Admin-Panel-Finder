@@ -78,7 +78,6 @@ payload_ngrok() {
   sed "s+forwarding_link+$link+g" template.php > index.php
 }
 
-
 ngrok_server() {
   [[ -e ngrok ]] || {
     command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is required but not installed. Aborting."; exit 1; }
