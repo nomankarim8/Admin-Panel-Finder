@@ -15,6 +15,7 @@ void bisection(double a, double b, double tol) {
     }
 
     
+    
     double c;  // Midpoint
     int iteration = 0;
 
