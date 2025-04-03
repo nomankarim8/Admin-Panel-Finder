@@ -2,7 +2,6 @@
 
 This is a simple Python script that helps you find admin panel login pages of websites by checking various common URLs.
 
-
 ## Features
 ✅ Supports **HTTP & HTTPS** for better compatibility  
 ✅ Displays **HTTP error codes** for debugging  
