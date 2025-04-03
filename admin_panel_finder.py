@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
-
 import urllib.request
 from urllib.error import URLError, HTTPError
 
