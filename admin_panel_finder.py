@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
 
+
 import urllib.request
 from urllib.error import URLError, HTTPError
 
@@ -31,13 +32,12 @@ def find_admin():
 
 def credit():
     banner = """
-    #####################################
-    #   *** Admin Panel Finder ***      #
-    #   Script by nomankarim8 White Hat #
-    #       Stay Legal!                 #
-    #####################################
-    """
+>>> Admin Panel Finder
+>>> Author : nomankarim8 (White Hat)
+>>> Remember : Stay Legal & Ethical
+"""
     print(banner)
+
 
 credit()
 find_admin()
