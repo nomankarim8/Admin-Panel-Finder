@@ -33,7 +33,7 @@ def find_admin():
 def credit():
     banner = """
 >>> Admin Panel Finder
->>> Author : nomankarim8 (White Hat)
+>>> Author : nomankarim8
 >>> Remember : Stay Legal & Ethical
 """
     print(banner)
