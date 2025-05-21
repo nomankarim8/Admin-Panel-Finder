@@ -31,13 +31,14 @@ def find_admin():
 
 def credit():
     banner = """
-┌────────────────────────────────┐
-│      Admin Panel Finder Tool   │
-│    Developed by: nomankarim8   │
-│    Legal & Ethical Usage Only  │
-└────────────────────────────────┘
+🛡️=======================================🛡️
+|         Admin Panel Finder Tool        |
+|     Developed by: nomankarim8          |
+|     For Legal & Ethical Use Only       |
+🛡️=======================================🛡️
 """
     print(banner)
+
 
 
 credit()
