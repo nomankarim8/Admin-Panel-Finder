@@ -4,6 +4,7 @@
 import urllib.request
 from urllib.error import URLError, HTTPError
 
+
 def find_admin():
     try:
         with open("link.txt", "r") as f:
