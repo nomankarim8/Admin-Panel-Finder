@@ -1,6 +1,6 @@
 admin.php 
 admin.html
-index.php
+index.ph
 login.php
 login.html
 administrator

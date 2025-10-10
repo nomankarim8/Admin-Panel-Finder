@@ -15,7 +15,7 @@ def find_admin():
                 if not sub_link:
                     continue
                 
-                req_link = f"http://{link}/{sub_link}"
+                req_link = f"http://{link}/{sub_link}" 
                 req = urllib.request.Request(req_link)
                 
                 try:
