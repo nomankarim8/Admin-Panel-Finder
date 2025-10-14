@@ -32,9 +32,9 @@ def find_admin():
 def credit():
     banner = """
 🛡️=======================================🛡️
-|         Admin Panel Finder Tool        |
-|     Developed by: nomankarim8          |
-|     For Legal & Ethical Use Only       |
+|        Admin Panel Finder Tool          |
+|       Developed by: nomankarim8         |
+|      For Legal & Ethical Use Only       |
 🛡️=======================================🛡️
 """
     print(banner)
