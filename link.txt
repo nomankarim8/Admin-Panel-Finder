@@ -3,7 +3,7 @@ admin.html
 index.php
 login.php
 login.html
-administrator
+administrator 
 admin
 adminpanel
 cpanel
