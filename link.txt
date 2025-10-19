@@ -8,7 +8,6 @@ admin
 adminpanel
 cpanel
 login
-
 wp-login.php
 administrator
 admins
