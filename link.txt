@@ -322,6 +322,7 @@ system/admin/
 adminsite/
 admins/
 adm/
+admn/
 moderator/
 modcp/
 usercp/
