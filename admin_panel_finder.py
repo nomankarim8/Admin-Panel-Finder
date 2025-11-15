@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-#Dont share without permission and creadit me 
+#Dont share without permission and credit me (nomankarim8)
 import urllib.request
 from urllib.error import URLError, HTTPError
 
