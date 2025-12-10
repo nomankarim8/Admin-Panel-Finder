@@ -315,7 +315,7 @@ secure/
 secure/admin/
 manager/
 manager/login.php
-backend/ 
+backend/
 backend/admin.php
 system/
 system/admin/
