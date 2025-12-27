@@ -90,11 +90,11 @@ def find_admin():
         else:
             print("No potential admin panels found (200/401/3xx).")
         
-        # Optional: show some other codes if needed
+       
         others = [r for r in results if r not in found]
         if others:
             print(f"\nOther interesting responses ({len(others)}):")
-            for res in others[:20]:  # Limit to avoid spam
+            for res in others[:20]:  
                 print(res)
             if len(others) > 20:
                 print("... (truncated)")
