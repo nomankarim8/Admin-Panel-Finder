@@ -68,14 +68,14 @@ def find_admin():
         
         print(f"\nScanning {base_url} with {len(paths)} paths using {max_threads} threads...\n")
         
-        # Add a common user-agent to avoid some blocks
+      
         opener = urllib.request.build_opener()
         opener.addheaders = [('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')]
         
         results = []
         with concurrent.futures.ThreadPoolExecutor(max_workers=max_threads) as executor:
             futures = [executor.submit(check_path, base_url, path, opener, results) for path in paths]
-            # Progress indication
+          
             completed = 0
             for future in concurrent.futures.as_completed(futures):
                 completed += 1
