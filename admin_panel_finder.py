@@ -28,7 +28,7 @@ def find_admin():
                     print("[OK] =>", req_link)
     except FileNotFoundError:
         print("Error: 'link.txt' not found!")
-            
+             
 def credit():
     banner = """
 🛡️=======================================🛡️
