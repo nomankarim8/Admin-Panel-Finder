@@ -40,7 +40,7 @@ def check_path(base_url, path, opener, results):
             results.append(f"[AUTH REQUIRED {e.code}] => {url}")
         # Other errors like 404, 403 are common and skipped for clean output
     except URLError:
-        pass  # Connection issues, skip
+        pass  
     except Exception:
         pass
 
