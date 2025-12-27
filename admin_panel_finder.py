@@ -38,7 +38,7 @@ def check_path(base_url, path, opener, results):
     except HTTPError as e:
         if e.code == 401:
             results.append(f"[AUTH REQUIRED {e.code}] => {url}")
-        # Other errors like 404, 403 are common and skipped for clean output
+        
     except URLError:
         pass  
     except Exception:
