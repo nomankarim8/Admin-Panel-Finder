@@ -32,9 +32,7 @@ def check_path(base_url, path, opener, results):
         elif 300 <= status < 400:
             location = resp.getheader('Location', 'Unknown')
             results.append(f"[REDIRECT {status}] => {url} -> {location}")
-        # Optionally uncomment for more verbose output:
-        # else:
-        #     results.append(f"[OTHER {status}] => {url}")
+
     except HTTPError as e:
         if e.code == 401:
             results.append(f"[AUTH REQUIRED {e.code}] => {url}")
