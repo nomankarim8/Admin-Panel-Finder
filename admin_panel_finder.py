@@ -10,7 +10,7 @@ import urllib.request
 from urllib.error import HTTPError, URLError
 import concurrent.futures
 import sys
-
+ 
 def credit():
     banner = """
 🛡️=======================================🛡️
