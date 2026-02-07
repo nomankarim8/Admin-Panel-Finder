@@ -5,7 +5,7 @@
 # Improved: Added multithreading for speed, HTTPS support, status code display,
 #           progress bar, better error handling, and user-agent header.
 # For Legal & Ethical Use Only (e.g., on sites you own or have permission to test)
-   
+
 import urllib.request
 from urllib.error import HTTPError, URLError
 import concurrent.futures
