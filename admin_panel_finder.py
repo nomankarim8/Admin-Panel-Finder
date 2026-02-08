@@ -41,7 +41,7 @@ def check_path(base_url, path, opener, results):
         pass  
     except Exception:
         pass
-
+ 
 def find_admin():
     try:
         with open("link.txt", "r") as f:

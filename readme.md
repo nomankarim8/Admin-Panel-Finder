@@ -4,6 +4,7 @@
 
 
 
+
 # Admin Panel Finder
 
 This is a simple Python script that helps you find admin panel login pages of websites by checking various common URLs.
