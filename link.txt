@@ -4,7 +4,7 @@ index.php
 login.php
 login.html
 administrator
-admin
+admin 
 adminpanel
 cpanel
 login
