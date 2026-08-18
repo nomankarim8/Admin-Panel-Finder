@@ -176,6 +176,14 @@ acct_login/
 bigadmin/
 project-admins/
 phppgadmin/
+admin/
+admin/login
+administrator/
+admin-panel/
+dashboard/
+backend/
+panel/
+login/
 pureadmin/
 sql-admin/
 radmind/
