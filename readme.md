@@ -5,8 +5,8 @@
 
  
 
-# Admin Panel Finder
-# 🛡️ Enhanced Admin Panel Finder
+
+# 🛡️  Admin Panel Finder
 
 ---
 
